@@ -63,7 +63,7 @@ async def start(b, m):
                 return
         await m.reply_text(
             text="""
-<i>Hey👋Yo iM ꜰɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡɪᴛʜ ʙᴏᴛʜ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴᴅ ꜱᴛʀᴇᴀᴍ ʟɪɴᴋ ꜱᴜᴘᴘᴏʀᴛ</i>\n
+<i>Hey👋Yo i M ꜰɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡɪᴛʜ ʙᴏᴛʜ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴᴅ ꜱᴛʀᴇᴀᴍ ʟɪɴᴋ ꜱᴜᴘᴘᴏʀᴛ</i>\n
 <i>Send a file/video and see magic!<i>\n
 <i>Cʟɪᴄᴋ ᴏɴ /help ᴛᴏ ɢᴇᴛ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ</i>\n
 <i><b>It is your responsibility to use wisely I dont take responsibilities of any voilations(of any kind)</i>\n
@@ -71,7 +71,7 @@ async def start(b, m):
 <b>Dont Spam.</b>""",
             parse_mode="HTML",
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton('🍿24×7MOvies🍿', url=f"https://t.me/z_harbour_files"),
+            reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton('24×7MOvies', url=f"https://t.me/z_harbour_files"),
                                                                                        InlineKeyboardButton('Other Bots', url='https://github.com/mdisk_bots') ] ]  ) )
                                                                                        
                                                                                        
@@ -109,7 +109,7 @@ async def start(b, m):
             except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="**Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ** [ADARSH GOEL](https://t.me/agprojects).",
+                    text="**Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ** [BLACK MARKET](https://t.me/blackest_harbour).",
                     parse_mode="markdown",
                     disable_web_page_preview=True)
                 return
@@ -152,14 +152,14 @@ async def start(b, m):
 
 <b> 🖥WATCH  :</b> <i>{}</i>
 
-<b>🚸 Nᴏᴛᴇ : LINK WON'T EXPIRE TILL AUTO DELETE</b>
+<b>🚸 Nᴏᴛᴇ : LINK WON'T EXPIRE</b>
 
 """
 
         await m.reply_text(
             text=msg_text.format(file_name, file_size, online_link, stream_link),
             parse_mode="HTML",
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("▶️STREAM▶️", url=stream_link), #Stream Link
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("▶️STREAM", url=stream_link), #Stream Link
                                                 InlineKeyboardButton('📩Dᴏᴡɴʟᴏᴀᴅ📥', url=online_link)]]) #Download Link
         )
 
@@ -190,7 +190,7 @@ async def help_handler(bot, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🤖 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ DEAR👀", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
+                            InlineKeyboardButton("🤖 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
                         ]
                     ]
                 ),
@@ -211,7 +211,7 @@ async def help_handler(bot, message):
             
           reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("🖤Our Movie Group🖤", url="https://t.me/blackest_harbour")]
+                [InlineKeyboardButton("Our Movie Group", url="https://t.me/blackest_harbour")]
             ]
         )
     )
