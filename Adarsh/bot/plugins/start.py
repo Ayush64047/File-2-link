@@ -72,7 +72,7 @@ async def start(b, m):
             parse_mode="HTML",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton('24×7MOvies', url=f"https://t.me/z_harbour_files"),
-                                                                                       InlineKeyboardButton('Other Bots', url='https://github.com/mdisk_bots') ] ]  ) )
+                                                                                       InlineKeyboardButton('Other Bots', url='https://t.me/mdisk_bots') ] ]  ) )
                                                                                        
                                                                                        
                                                                             
